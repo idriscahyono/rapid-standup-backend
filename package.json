@@ -1,0 +1,19 @@
+{
+  "name": "rapidstandup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
