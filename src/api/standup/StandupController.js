@@ -33,7 +33,7 @@ module.exports = {
         ModelStandup.findByIdAndDelete({
             _id: req.params.id
         }).then(function (row) {
-            res.send(show)
+            res.send(row)
         })
     }
 }
