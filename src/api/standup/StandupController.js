@@ -35,15 +35,5 @@ module.exports = {
         }).then(function (row) {
             res.send(show)
         })
-    },
-
-    upload: function (req, res) {
-        ModelStandup.findByIdAndUpdate(req.params.id, {
-            image_url: req.file.url
-        }, {
-            new: true
-        }).then(function (row) {
-            res.send(row)
-        })
     }
 }
