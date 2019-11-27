@@ -2,10 +2,10 @@ const mongoose = require('mongoose')
 
 const standupSchema = new mongoose.Schema({
     duration: Number,
-    passed: [{
+    passed: {
         minutes: Number,
         seconds: Number
-    }],
+    },
     note: String
 })
 
